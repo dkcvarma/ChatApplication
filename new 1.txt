@@ -1,0 +1,60 @@
+semaphores,mutexlocks, seializable schedules, deadlocks princiles, schedulers, transactions
+
+A content delivery network (CDN) is a system of distributed servers (network) that deliver pages and other Web 
+content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
+
+A race condition is an undesirable situation that occurs when a device or system attempts to perform two or more
+operations at the same time, but because of the nature of the device or system, the 
+operations must be done in the proper sequence to be done correctly.
+
+LEVEL ORDER
+ void printLevelOrder() 
+    {
+        Queue<Node> queue = new LinkedList<Node>();
+        queue.add(root);
+        while (!queue.isEmpty()) 
+        {
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.data + " ");
+ 
+            /*Enqueue left child */
+            if (tempNode.left != null) {
+                queue.add(tempNode.left);
+            }
+ 
+            /*Enqueue right child */
+            if (tempNode.right != null) {
+                queue.add(tempNode.right);
+            }
+        }
+    }
+
+	
+A kernel is the central part of an operating system. It manages the operations of the computer and the hardware - most 
+notably memory and CPU time. There are two types of kernels: A microkernel, which only contains basic functionality; A 
+monolithic kernel, which contains many device drivers.
+
+Device management. To perform useful functions, processes need access to the peripherals connected to the computer, which
+ are controlled by the kernel through device drivers. A device driver is a computer program that enables the operating 
+ system to interact with a hardware device.
+ 
+The V-model is an SDLC model where execution of processes happens in a sequential manner in a V-shape. It is also 
+known as Verification and Validation model. The V-Model is an extension of the waterfall model and is based on the 
+association of a testing phase for each corresponding development stage. 
+
+ODBC is procedural and JDBC is object oriented. 2. ODBC is used to provide connection between front-end 
+application(other than java) and back-end (database like ms-access) and JDBC is used to provide connection 
+between JAVA and database(oracle,sybase,DB2,ms-access).
+
+An interpreter translates high-level instructions into an intermediate form, which it then executes. In contrast, a 
+compiler translates high-level instructions directly into machine language. Compiled programs generally run faster 
+than interpreted programs. ... This process can be time-consuming if the program is long.
+
+13.0 for SQL Server 2016
+14.0 for SQL Server 2017 SELECT @@
+
+Deadlock Characteristics
+Mutual Exclusion.
+Hold and Wait.
+No preemption.
+Circular wait.
